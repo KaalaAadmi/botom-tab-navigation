@@ -36,7 +36,7 @@ export default function MainTabScreen() {
         name="Details"
         component={DetailsScreen}
         options={{
-          tabBarLabel: "Deatails",
+          tabBarLabel: "Details",
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="bell" color={color} size={26} />
           ),

@@ -17,7 +17,7 @@ const Tab = createMaterialBottomTabNavigator();
 
 export default function App() {
   return (
-    <NavigationContainer>
+    <NavigationContainer independent={true}>
       <Drawer.Navigator
         initialRouteName="Home"
         screenOptions={{
